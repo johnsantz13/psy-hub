@@ -1,0 +1,115 @@
+/*variaveis*/
+:root {
+    --color1: #ffffff;
+    --color2: #f8f1e6;
+    --color3: #ccd8d6;
+    --color4: #f4e7e0;
+}
+
+/*configuração geral*/
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+/*corpo*/
+body {
+    background-color: var(--color2);
+}
+
+/*imagem de login*/
+
+img {
+    width: 600px;
+    opacity: 50%;
+    border-radius: 20px;
+}
+
+/*Aréa de login geral*/
+.login-grid {
+    background-color: var(--color3);
+    width: 900px;
+    height: 450px;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: 650px 100px;
+    margin: auto;
+    margin-top: 10%;
+}
+
+/*formulario*/
+.login form {
+    margin: auto;
+    color: var(--color1);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
+
+/*inputs de login*/
+.login input {
+    border-radius: 20px;
+    padding: 2px;
+    border: none;
+}
+
+/*Botão de login*/
+
+.login button {
+    padding: 8px;
+    width: 70px;
+    border-radius: 20px;
+    border: none;
+    background-color: var(--color1);
+    color: #9ba5a3;
+}
+
+/*header - home*/
+
+.nav {
+    text-align: center;
+}
+
+/*imagem do header*/
+.nav img {
+    width: 100px;
+    float: left;
+}
+
+/*icon do header*/
+
+i {
+    float: right;
+}
+
+/*Cards de função*/
+
+.function {
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Atendimentos {
+    text-align: center;
+    background-color: #98afab;
+    width: 300px;
+    height: 90px;
+    border-radius: 20px;
+}
+
+.campanhas {
+    text-align: center;
+    background-color: #98afab;
+    width: 300px;
+    height: 90px;
+    border-radius: 20px;
+}
+
+.eventos {
+    text-align: center;
+    background-color: #98afab;
+    width: 300px;
+    height: 90px;
+    border-radius: 20px;
+}
