@@ -10,13 +10,14 @@
 * {
     padding: 0px;
     margin: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 /*corpo*/
 body {
     background-color: var(--color2);
 }
-
+/*-----------ÁREA DE LOGIN----------------*/
 /*imagem de login*/
 
 img {
@@ -65,10 +66,13 @@ img {
     width: 200px;
 }
 
-/*header - home*/
+/*---------ARÉA DE PAINEL PRINCIPAL----------------*/
+
+/*header - PAINEL PRINCIPAL*/
 
 .nav {
     text-align: center;
+    margin-left: 17%;
 }
 
 .cad-p {
@@ -82,23 +86,6 @@ img {
     width: 100px;
 }
 
-/*Cards de função*/
-
-.function {
-    margin-top: 10%;
-    margin-left: 15%;
-    display: flex;
-    gap: 100px;
-}
-
-.card {
-    text-align: center;
-    background-color: #98afab;
-    width: 200px;
-    height: 90px;
-    border-radius: 10px;
-}
-
 /*Menu lateral*/
 .sidebar {
     position: absolute;
@@ -107,9 +94,55 @@ img {
     background-color: #9ba5a3;
     display: flex;
     flex-direction: column;
+    font-weight: bolder;
+    font-size: 15pt;
+    gap: 25px;
 }
-
+/*img de menu*/
 .sidebar img {
     width: 150px;
     float: left;
 }
+
+.sidebar i{
+    font-size: 21pt;
+    margin-left: 10%;
+}
+
+/*-------------ÁREA DE CARDS---------------- */
+/*Cards de função*/
+
+.function {
+    margin-top: 2%;
+    margin-left: 20%;
+    display: flex;
+    gap: 60px;
+}
+
+.card {
+    text-align: center;
+    background-color: #bfc5c4;
+    width: 250px;
+    height: 95px;
+    border-radius: 10px;
+    color:#5b887f;
+}
+
+.card i{
+    font-size: 20pt;
+}
+
+.qtd{
+    font-size: 20pt;
+    font-weight: bolder;
+}
+
+/*---------------CARDS DE INFORMAÇÕES-----------------*/
+
+/* cotainer geral */
+.container.info{
+    margin-left: 20%;
+    display: grid;
+    grid-template-areas: "item-1 item-2";
+}
+

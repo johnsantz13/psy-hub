@@ -10,54 +10,75 @@
 </head>
 
 <body>
-
     <div class="sidebar">
         <img src="imagem/image (1).png" alt="">
         <div class="sidebar-link">
-            home
+            <i class="bi bi-clipboard-data"></i> PAINEL GERAL
         </div>
         <br>
         <div class="sidebar-link">
-            Atendimento
+            <i class="bi bi-clipboard2-fill"></i> ATENDIMENTO
         </div>
         <br>
         <div class="sidebar-link">
-            Relatorios
+            <i class="bi bi-file-earmark-font"></i> RELATORIOS
         </div>
         <br>
         <div class="sidebar-link">
-            Eventos e palestra
+            <i class="bi bi-calendar2-check-fill"></i> EVENTOS
         </div>
     </div>
 
     <header class="nav">
-        <h2>HOME</h2>
-        <p>Atividades Gerais</p>
+        <h2 class="header-h2">Painel</h2>
+        <p class="header-p">Atividades Gerais</p>
         <img src="" alt="" class="perfil">
     </header>
-
+<!-- --------------DASHBOARD GERAL--------------- -->
     <div class="function">
         <div class="card">
-            <p>Atendimentos Este mês</p>
+            <i class="bi bi-person-vcard-fill"></i><p>Atendimentos Este mês</p>
             <br>
             <p class="qtd">0</p>
-            <i class="bi bi-calendar2-event-fill"></i>
         </div>
         <br>
         <div class="card">
-            <p>Proximos Eventos</p>
+             <i class="bi bi-calendar2-check-fill"></i><p>Proximos Eventos</p>
             <br>
             <p class="qtd">0</p>
-            <i class="bi bi-calendar-heart"></i>
         </div>
         <br>
         <div class="card">
-            <p>Relatorio pendente</p>
+            <i class="bi bi-file-earmark-font"></i> <p>Relatorio pendente</p>
             <br>
             <p class="qtd">0</p>
-            <i class="bi bi-card-checklist"></i>
         </div>
     </div>
-</body>
+<!--  -----------CARDS DE INFORMAÇÕES--------------  -->
+    <div class="container info">
+        <div class="container-Atendimento">
+            <h3>Próximos Eventos</h3>
+            <p>Palestras e campanhas agendadas</p>
 
-</html>
+            <button>ver todos os eventos</button>
+        </div>
+        <br>
+        <div class="container-eventos">
+            <h3>Atendimentos Recentes</h3>
+            <p>Últimos registros de atendimento</p>
+
+            <button>ver todos os atendimentos</button>
+        </div>
+    </div>
+
+    <!-- -----------------CAMPO DE OBSERVAÇÃO--------- -->
+     <div class="contaoner-obs">
+        <h2>Anotações Rápidas</h2>
+        <p>Espaço para lembretes e observações importantes</p>
+        <br>
+        <textarea name="observações" id="obs"></textarea>
+        <br><br>
+        <button>Salvar Anotação</button>
+     </div>
+</body>
+</html
