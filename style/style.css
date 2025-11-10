@@ -17,6 +17,7 @@
 body {
     background-color: var(--color2);
 }
+
 /*-----------ÁREA DE LOGIN----------------*/
 /*imagem de login*/
 
@@ -98,13 +99,14 @@ img {
     font-size: 15pt;
     gap: 25px;
 }
+
 /*img de menu*/
 .sidebar img {
     width: 150px;
     float: left;
 }
 
-.sidebar i{
+.sidebar i {
     font-size: 21pt;
     margin-left: 10%;
 }
@@ -114,7 +116,7 @@ img {
 
 .function {
     margin-top: 2%;
-    margin-left: 20%;
+    margin-left: 25%;
     display: flex;
     gap: 60px;
 }
@@ -122,17 +124,17 @@ img {
 .card {
     text-align: center;
     background-color: #bfc5c4;
-    width: 250px;
-    height: 95px;
+    width: 350px;
+    height: 105px;
     border-radius: 10px;
-    color:#5b887f;
+    color: #5b887f;
 }
 
-.card i{
+.card i {
     font-size: 20pt;
 }
 
-.qtd{
+.qtd {
     font-size: 20pt;
     font-weight: bolder;
 }
@@ -140,9 +142,47 @@ img {
 /*---------------CARDS DE INFORMAÇÕES-----------------*/
 
 /* cotainer geral */
-.container.info{
+.container.info {
     margin-left: 20%;
     display: grid;
     grid-template-areas: "item-1 item-2";
+    margin-left: 23%;
 }
 
+/*card direito*/
+.container-eventos {
+    grid-area: item-1;
+    background-color: #ffffff;
+    padding: 20px;
+    margin-top: 100px;
+    border-radius: 20px;
+    color: #5b887f;
+    width: 600px;
+    height: 200px;
+    text-align: center;
+}
+
+/*card direito*/
+.container-atendimento {
+    grid-area: item-2;
+    background-color: #ffffff;
+    padding: 20px;
+    margin-top: 100px;
+    border-radius: 20px;
+    color: #5b887f;
+    width: 600px;
+    height: 200px;
+    text-align: center;
+}
+
+/*butã0 dos cards*/
+.container.info button {
+    padding: 15px;
+    border: none;
+    border-radius: 20px;
+    background-color: #5b887f;
+    color: #e7f1ef;
+    width: 400px;
+}
+
+/*------------caixa de observação---------------*/
