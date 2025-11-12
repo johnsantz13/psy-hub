@@ -134,7 +134,7 @@ img {
 
 .function {
     margin-top: 2%;
-    margin-left: 20%;
+    margin-left: 30%;
     display: flex;
     gap: 60px;
 }
@@ -209,12 +209,12 @@ img {
 /*------------caixa de observação---------------*/
 
 .container-obs {
-    margin-left: 23%;
+    margin-left: 33%;
     margin-top: 3%;
     background-color: #ffffff;
     padding: 20px;
     text-align: center;
-    width: 900px;
+    width: 1000px;
     color: #5b887f;
     border-radius: 12px;
     box-shadow: 2px 2px 3px 3px #48736a37;
@@ -222,8 +222,8 @@ img {
 
 .container-obs textarea {
     background-color: #f4e7e0;
-    width: 500px;
-    height: 100px;
+    width: 900px;
+    height: 200px;
     border-radius: 10px;
     border: 1px solid #64a497;
 }
@@ -238,3 +238,52 @@ img {
 }
 
 /* ---------------Aréa de ATendimento--------------- */
+
+.cab {
+    margin-left: 15%;
+    font-size: 17pt;
+}
+
+.search {
+    background-color: #ffffff;
+    margin-left: 15%;
+    margin-top: 15px;
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px solid #4c887c;
+    width: 1500px;
+}
+
+.search #pesquisar {
+    background-color: #f4e7e0;
+    padding: 10px;
+    width: 600px;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 1px 1px 2px 2px #28524a7e;
+}
+
+.search button {
+    float: right;
+    padding: 10px;
+    border: 1px solid #28524a;
+    border-radius: 15px;
+    color: #4c887c;
+}
+
+.container-atd {
+    margin-left: 15%;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 15px;
+    height: 500px;
+    width: 79%;
+}
+
+.paciente-1 {
+    border: 1px solid #4c887c;
+    padding: 10px;
+    border-radius: 15px;
+    color: #4c887c;
+
+}
