@@ -76,6 +76,24 @@ img {
     margin-left: 17%;
 }
 
+/*botões header*/
+.nav button {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #9ba5a3;
+    font-size: 13pt;
+    color: #28524a;
+    margin-top: 20px;
+}
+
+.bt-green {
+    background-color: #4c887c;
+}
+
+.bt-light {
+    background-color: #f4e7e0;
+}
+
 .cad-p {
     margin-left: 60%;
 }
@@ -89,7 +107,7 @@ img {
 
 /*Menu lateral*/
 .sidebar {
-    position: absolute;
+    position: fixed;
     width: 200px;
     height: 100vh;
     background-color: #9ba5a3;
@@ -116,7 +134,7 @@ img {
 
 .function {
     margin-top: 2%;
-    margin-left: 25%;
+    margin-left: 20%;
     display: flex;
     gap: 60px;
 }
@@ -124,10 +142,11 @@ img {
 .card {
     text-align: center;
     background-color: #bfc5c4;
-    width: 350px;
-    height: 105px;
+    width: 250px;
+    height: 95px;
     border-radius: 10px;
     color: #5b887f;
+    box-shadow: 2px 2px 3px 3px #48736a37;
 }
 
 .card i {
@@ -160,6 +179,7 @@ img {
     width: 600px;
     height: 200px;
     text-align: center;
+    box-shadow: 2px 2px 3px 3px #48736a37;
 }
 
 /*card direito*/
@@ -173,16 +193,48 @@ img {
     width: 600px;
     height: 200px;
     text-align: center;
+    box-shadow: 2px 2px 3px 3px #48736a37;
 }
 
 /*butã0 dos cards*/
 .container.info button {
     padding: 15px;
-    border: none;
-    border-radius: 20px;
-    background-color: #5b887f;
-    color: #e7f1ef;
+    border: 1px solid gray;
+    border-radius: 10px;
+    background-color: #f4e7e0;
+    color: #4c887c;
     width: 400px;
 }
 
 /*------------caixa de observação---------------*/
+
+.container-obs {
+    margin-left: 23%;
+    margin-top: 3%;
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    width: 900px;
+    color: #5b887f;
+    border-radius: 12px;
+    box-shadow: 2px 2px 3px 3px #48736a37;
+}
+
+.container-obs textarea {
+    background-color: #f4e7e0;
+    width: 500px;
+    height: 100px;
+    border-radius: 10px;
+    border: 1px solid #64a497;
+}
+
+.container-obs button {
+    padding: 15px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    background-color: #f4e7e0;
+    color: #4c887c;
+    width: 400px;
+}
+
+/* ---------------Aréa de ATendimento--------------- */
