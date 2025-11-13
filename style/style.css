@@ -11,6 +11,7 @@
     padding: 0px;
     margin: 0px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15pt;
 }
 
 /*corpo*/
@@ -108,7 +109,7 @@ img {
 /*Menu lateral*/
 .sidebar {
     position: fixed;
-    width: 200px;
+    width: 250px;
     height: 100vh;
     background-color: #9ba5a3;
     display: flex;
@@ -120,13 +121,23 @@ img {
 
 /*img de menu*/
 .sidebar img {
+    margin-top: 50px;
+    margin-left: 20px;
+    padding: 30px;
     width: 150px;
     float: left;
+    background-color: #f5f5f5;
 }
 
 .sidebar i {
     font-size: 21pt;
     margin-left: 10%;
+}
+
+/*link side bar*/
+.sidebar a {
+    text-decoration: none;
+    color: #28524a;
 }
 
 /*-------------ÁREA DE CARDS---------------- */
@@ -255,7 +266,7 @@ img {
 }
 
 .search #pesquisar {
-    background-color: #f4e7e0;
+    background-color: #ffffff;
     padding: 10px;
     width: 600px;
     border-radius: 15px;
@@ -286,4 +297,56 @@ img {
     border-radius: 15px;
     color: #4c887c;
 
+}
+
+/* --------------------RELATORIOS---------------------- */
+
+.container-arqv {
+    margin-left: 15%;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 15px;
+    height: 500px;
+    width: 79%;
+}
+
+.rel-1 {
+    border: 1px solid #4c887c;
+    padding: 10px;
+    border-radius: 15px;
+    color: #4c887c;
+}
+
+.container-arqv button {
+    padding: 5px;
+    border-radius: 15px;
+    border: 1px solid #28524a;
+    background-color: #b9f1e6;
+    color: #23312e;
+}
+
+/* ---------------------------EVENTOS-------------------------- */
+
+.container-evt {
+    margin-left: 15%;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 15px;
+    height: 500px;
+    width: 79%;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    text-align: center;
+}
+
+.box-1 {
+    margin-top: 50px;
+    border: 1px solid #23312e;
+    padding: 20px;
+    width: 200px;
+    height: 100px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 2px 2px #23312e81;
 }
